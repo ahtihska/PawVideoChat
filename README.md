@@ -55,6 +55,10 @@ Install Nodemon:
   ```sh
 npm install nodemon -g
   ```
+To start the server type:
+  ```sh
+nodemon server.js
+  ```
 After instalation go to:
  ```sh
 localhost:3040/register
