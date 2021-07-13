@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="Register-form">
+      <div class="logo-box">
+        <img
+          src="https://cdn.discordapp.com/attachments/637326316487704630/863451577125044224/pussy.png"
+          alt="logo"
+          class="logo"
+        />
+      </div>
+      <div class="form">
+        <h1>Register</h1>
+        <form action="/register" method="POST">
+          <div class="content">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="input"
+              placeholder="username"
+              required
+            />
+          </div>
+          <div class="content">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input"
+              placeholder="email"
+              required
+            />
+          </div>
+          <div class="content">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="password input"
+              placeholder="password"
+              required
+            />
+          </div>
+          <button type="submit" class="button">REGISTER</button>
+        </form>
+
+        <a href="/login" class="button login">LOGIN</a>
+      </div>
+    </div>
+    <img
+      src="https://cdn.discordapp.com/attachments/637326316487704630/863690584078024704/23.gif"
+      alt=""
+      class="cat"
+    />
+  </body>
+</html>

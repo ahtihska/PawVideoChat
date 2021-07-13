@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/637326316487704630/863444793707593728/unknown.png");
+  background-size: cover;
+  background-position: bottom;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  letter-spacing: 0.2rem;
+}
+
+.Register-form {
+  height: 100vh;
+}
+
+.form {
+  margin-top: 10rem;
+  background-color: rgba(34, 34, 34, 0.541);
+  color: #fff;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+
+form {
+  padding: 2.5rem 5rem;
+}
+
+.password {
+  margin-bottom: 6rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.3s;
+  letter-spacing: 0.2rem;
+}
+
+button:hover {
+  transform: translateY(-0.3rem);
+  background-color: #cc6943;
+  box-shadow: 0 1rem 1.5rem rgba(202, 84, 25, 0.5);
+}
+
+button:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.6);
+}
+
+.login {
+  text-decoration: none;
+  border-radius: 2rem;
+  background-color: #cc6943;
+  padding: 0.5rem 3rem;
+  transition: all 0.3s;
+}
+
+.login:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 1.5rem rgba(202, 84, 25, 0.5);
+}
+
+.login:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 0.8rem rgba(13, 75, 146, 0.9);
+}
+
+.button {
+  color: #fff;
+}
+
+.input {
+  margin-left: 0.6rem;
+  border-radius: 2rem;
+  border-width: 0.5px;
+  padding: 0.3rem;
+  padding-left: 0.8rem;
+  color: #fff;
+  background-color: transparent;
+}
+
+.cat {
+  height: 20rem;
+  position: absolute;
+  top: 7rem;
+  left: 50rem;
+  float: left;
+  animation: runningCat 10s;
+}
+
+.logo {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  height: 6rem;
+}
+
+@keyframes runningCat {
+  0% {
+    transform: translateX(-60rem) translateY(-10rem);
+  }
+
+  100% {
+    transform: translateX(80rem) translateY(-10rem);
+  }
+}
