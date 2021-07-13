@@ -2,12 +2,12 @@
 Video Conference application wherein users can connect over video audio as well as text.
 
 ## Table of contents
-* [About The Project]()
-* [Features]()
-* [Live Demo]()
+* [About The Project](#about-the-project)
+* [Features](#features)
+* [Live Demo](#live-demo)
 * [Technologies](#technologies)
-* [Installation]()
-* [License]()
+* [Installation](#installation)
+* [License](#license)
 
 ## About The Project
 Video Conference application wherein users can connect over video audio as well as text.
