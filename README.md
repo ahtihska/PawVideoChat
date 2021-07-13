@@ -27,9 +27,9 @@ The user can also take notes during the meeting. The user can make an agenda to 
 
 ## Live Demo 
 [Chat Demo](https://distracted-shirley-6119b2.netlify.app/)
-| Username | Demo |
+| Username | demo |
 | ---------| ---- |
-| Password | Demo |
+| Password | demo |
 
 
 ## Technologies
